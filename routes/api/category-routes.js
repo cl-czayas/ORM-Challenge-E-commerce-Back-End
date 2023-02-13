@@ -53,7 +53,7 @@ router.put('/:id', (req, res) => {
     {
       // The fields you can update
       id: req.body.id,
-      category_name: req.body.tag_name,
+      category_name: req.body.category_name,
     },
     {
       where: {
@@ -61,8 +61,8 @@ router.put('/:id', (req, res) => {
       },
     }
   )
-    .then((updatedTag) => {
-      res.json(updatedTag);
+    .then((updatedCat) => {
+      res.json(updatedCat);
     })
     .catch((err) => {
       console.log(err);

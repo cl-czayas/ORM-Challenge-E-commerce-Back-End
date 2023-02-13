@@ -13,7 +13,7 @@ This application was created in order to keep track of a company's inventory thr
 After starting the application, users can input new information and modify/delete existing data related to a company's inventory.
 
 ## Video Demo Link
-
+https://drive.google.com/file/d/1ZsouaUx0o00yzZS_GIR9weOqKr4Qbw2f/view
 
 ## Credits
 
